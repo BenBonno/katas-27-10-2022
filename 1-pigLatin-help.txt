@@ -1,0 +1,17 @@
+Pig latin | Petit coup de main (en cas de coup dur...)
+
+1) Est-ce que la chaîne de caractères est le type de données
+le plus facile à manipuler dans ce contexte ? Est-ce qu'il ne
+vaudrait mieux pas la manipuler sous une autre forme ?
+
+2) Dans le sens anglais => pig latin, quelle est la lettre 
+de chaque mot qui est la plus importante à cibler ?
+
+3) Dans le sens pig latin => anglais, on peut être tenté·e 
+d'essayer de faire simplement "l'inverse de l'autre" ; c'est 
+un bon point de départ, mais attention ! il faudra sûrement 
+exploiter un index pour bien cibler la bonne lettre de chaque 
+mot. 
+
+4) Si tu as toujours du mal, n'hésite pas à solliciter 
+ton formateur !
