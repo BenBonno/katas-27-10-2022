@@ -65,8 +65,4 @@ console.log(toEnglish("ymay tudentssay reaay aay unchbay foay reakingfay emsgay"
 
 const toto = "my students are a bunch of freaking gems"
 
-console.log(toto.split(" "));
-
 console.log(toto.split(" ")[1][1])
-
-console.log(toto.l);
