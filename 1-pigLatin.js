@@ -35,18 +35,38 @@
 
 const toPigLatin = (str) => {
   // La magie s'opère ici!
+  const toArraySplited = str.split(" ")
+  console.log(toArraySplited);
+
+  const newArrayFirstLetter = []
+
+  for (let i = 0; i < toArraySplited.length; i++) {
+    newArrayFirstLetter.push(toArraySplited[i].slice(1,) + toArraySplited[i].charAt(0) + "ay")
+  }
+  return newArrayFirstLetter.join(" ")
 };
+
+
 
 const toEnglish = (str) => {
   // La magie s'opère ici!
+  return str.split(" ").map(e => e[e.length - 3] + e.slice(0, -3)).join(" ")
 };
 
 console.log(toPigLatin("my students are a bunch of freaking gems"));
 // Le résultat attendu :
 // ymay tudentssay reaay aay unchbay foay reakingfay emsgay
 
-console.log(
-  toEnglish("ymay tudentssay reaay aay unchbay foay reakingfay emsgay")
+console.log(toEnglish("ymay tudentssay reaay aay unchbay foay reakingfay emsgay")
 );
 // Le résultat attendu :
 // my students are a bunch of freaking gems
+
+
+const toto = "my students are a bunch of freaking gems"
+
+console.log(toto.split(" "));
+
+console.log(toto.split(" ")[1][1])
+
+console.log(toto.l);
